@@ -1,0 +1,60 @@
+/* Start Variables */
+:root {
+    /* _> Colors Variables <_ */
+    --main-color: #0078ff;
+    --prim-color: #f5f5f5;
+    --sec-color: #4e4e4e;
+    --h-p-color: #1e1e1e;
+    --hov-color: #CDE1F8;
+    --light-white: #fff;
+    /* Padding - Margin - Variables */
+    --prim-pixels: 4rem;
+    --sec-pixels: 2.5rem
+}
+
+/* End Variables */
+/* Start Global Rules */
+
+body {
+background-color: var(--prim-color);
+color: var(--h-p-color);
+font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+color: var(--h-p-color);
+}
+
+*,
+::before,
+::after {
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+a {
+outline: none;
+text-decoration: none;
+color: var(--h-p-color);
+transition: color 1s ease-in-out;
+}
+
+ul {
+list-style-type: none;
+}
+
+.fa-regular {
+font-weight: 900;
+}
+
+p {
+color: var(--sec-color);
+}
+
+.container {
+    height: 100vh;
+}
